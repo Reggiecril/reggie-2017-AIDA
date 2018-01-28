@@ -1,0 +1,293 @@
+body
+{
+	font-family: lucida,tahoma,verdana,arial,sans-serif;
+	background-color: #dedede;
+		height: 400px;
+}
+body p
+{
+	font-size: 0.8em;
+	line-height: 1.28;
+}
+
+#wrapper
+{
+		width:1050px;
+		margin: 0 auto;
+		padding: 10px;
+		border: 5px solid #dedede;	
+		height: 1200px;
+}
+#banner
+{
+	   	width: 1200px;
+		border: 5px solid #dedede; 
+		height: 200px;
+}
+#content_area
+{
+
+		width: 1000px;
+		margin: 20px 0 20px 0;
+		padding: 10px;
+}
+#footer
+{
+	clear: both;
+	width: auto;
+	height: 40px;
+	padding: 10px;
+	border: 3px solid #E3E3E3;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0.1em 0.1em #333;
+}
+#navigation
+{
+	background-color: #3F4141;
+	height: 60px;
+	border: 3px solid #000;
+	margin-top: 20px;
+	text-shadow: 0.1em 0.1em #333;
+	border-radius: 15px;
+	border: 1px ; 
+	margin: .5em; 
+	padding: .5em
+
+}
+#nav
+{
+	list-style: none;
+}
+#nav ul
+{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	display: none;
+}
+#nav li
+{
+	font-size: 24px;
+	float: left;
+	position: relative;
+	width: 180px;
+	height: 60px;
+}
+
+#nav a:link, nav a:active, nav a:visited
+{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+#nav a:hover
+{	
+	color: lightblue;	
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+     display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 5px;
+    color: #555;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    border-image-source: none;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-width: 1 1 1 1;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-radius: 3px;
+}
+#imgaboutleft{
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin: 0px 10px 10px 0;
+	padding: 10px;	
+}
+#imgaboutright{
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin: 0px 10px 10px 0;
+	padding: 10px;	
+}
+.imgLeft
+{
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin: 0px 10px 10px 0;
+	padding: 10px;	
+}
+.imgRight
+{
+	float: right;
+	width: 300px;
+	height: 250px;
+	margin: 0px 0 10px 10px;
+	padding: 10px;
+}
+
+
+h1{
+		text-align: center;
+    	border:3px solid #6E6E6E;
+	    border-radius: 10px;
+
+}
+.group{
+	display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 5px;
+    color: #555;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    border-image-source: none;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-width: 1 1 1 1;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-radius: 3px;
+}
+.required{
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 5px;
+    color: #555;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    border-image-source: none;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-width: 1 1 1 1;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-radius: 3px;
+}
+.item{
+	   display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 5px;
+    color: #555;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    border-image-source: none;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-width: 1 1 1 1;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-radius: 3px;
+}
+
+input[name="submit"]{
+	    background-color: #989417;
+}
+input[class="loginform-submit"] {
+	font-size: 15px;
+    background-color: #989417;
+    border: 1px solid #4FDFDF;
+    color: #FFF;
+    text-shadow: 0 1px 0 #000;
+    display: inline-block;
+
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    width: 400px;
+    height: 30px;
+}
+
+.login-fields {
+    margin-bottom: 20px;
+    padding: 50px 0 10px;
+    width: 400px;
+    min-width: 0;
+    margin: 0 auto;
+    
+}
+
+
+.signup{
+	width: 400px;
+	height: 30px;
+    font-size: 15px;
+    background-color: #989417;
+    border: 1px solid #4FDFDF;
+    color: #FFF;
+    text-shadow: 0 1px 0 #000;
+    display: inline-block;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+
+} 
+
+.login-form a:hover
+{	
+
+	color: lightblue;	
+}
